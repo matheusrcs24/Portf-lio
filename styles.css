@@ -110,20 +110,38 @@ section h2 {
 }
 
 .project {
-    background: #f4f4f4;
+    background: #333;
     padding: 1rem;
-    border-radius: 50px;
-    width: 300px;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
     text-align: center;
-}
-
-.project h2 {
-    font-size: 3rem;
+    color: #fff;
 }
 
 .project img {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 5px;
+}
+
+.project a {
+    background: #fff;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.project a:hover {
+    background: #7e7e7e;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.project h3 {
+    font-size: 3rem;
+}
+
+.project p {
+    font-size: 1.5rem;
 }
 
 #contact h2 {
